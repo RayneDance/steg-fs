@@ -4,15 +4,15 @@
 `steg-fs` is a novel filesystem that stores data by hiding it inside images using steganographic techniques. It presents itself as a virtual drive, allowing seamless file read/write operations while storing data in modified image files. The system includes encryption, integrity verification, and optional original file preservation.
 
 ## **Key Features**
-✅ **Virtual Filesystem** – Mounts as a drive, allowing standard file operations.  
-✅ **Steganographic Storage** – Uses image files (PNG, BMP, etc.) as the backend storage medium.  
-✅ **Configurable Data Encoding** – Supports modifying either the least significant bit (LSB) or two least significant bits (2-LSB) of RGB(A) values.  
-✅ **Strong Encryption** – AES-GCM or ChaCha20-Poly1305 encryption to protect hidden data.  
-✅ **Error Detection & Correction** – Ensures data integrity using checksums, parity bits, or Reed-Solomon error correction.  
-✅ **Filesystem Recovery Tool** – Scans images and reconstructs the filesystem in case of corruption.  
-✅ **Secure File Wiping** – Implements safe deletion to prevent data recovery.  
-✅ **Optional Original File Restoration** – Ability to store original image data separately for lossless restoration.  
-✅ **Windows-Only** – Designed specifically for the Windows operating system.
+⏳ **Virtual Filesystem** – Mounts as a drive, allowing standard file operations.  
+🚧 **Steganographic Storage** – Uses image files (PNG, BMP, etc.) as the backend storage medium.  
+⏳ **Configurable Data Encoding** – Supports modifying either the least significant bit (LSB) or two least significant bits (2-LSB) of RGB(A) values.  
+⏳ **Strong Encryption** – AES-GCM or ChaCha20-Poly1305 encryption to protect hidden data.  
+⏳ **Error Detection & Correction** – Ensures data integrity using checksums, parity bits, or Reed-Solomon error correction.  
+⏳ **Filesystem Recovery Tool** – Scans images and reconstructs the filesystem in case of corruption.  
+⏳ **Secure File Wiping** – Implements safe deletion to prevent data recovery.  
+⏳ **Optional Original File Restoration** – Ability to store original image data separately for lossless restoration.  
+⏳ **Windows-Only** – Designed specifically for the Windows operating system.
 
 ## **Project Architecture**
 `steg-fs` is structured into multiple Rust crates, each handling a core aspect of the filesystem:
