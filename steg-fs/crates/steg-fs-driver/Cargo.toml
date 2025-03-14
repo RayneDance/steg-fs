@@ -1,0 +1,8 @@
+[package]
+name = "steg-fs-driver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winfsp = "0.1"  # If using WinFSP bindings (will require a Rust wrapper)
+tokio = { version = "1", features = ["full"] }  # For async file operations

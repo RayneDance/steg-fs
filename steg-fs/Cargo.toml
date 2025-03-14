@@ -1,0 +1,17 @@
+[package]
+name = "steg-fs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[workspace]
+members = [
+    "crates/steg-img-encode",
+    "crates/steg-img-decode",
+    "crates/steg-img-write",
+    "crates/steg-fs-driver",
+    "crates/steg-fs-mgmt",
+    "crates/steg-compress",
+    "crates/steg-fs-ui"
+]
