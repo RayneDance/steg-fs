@@ -609,7 +609,7 @@ name = "steg-compress"
 version = "0.1.0"
 
 [[package]]
-name = "steg-fs"
+name = "steg-fs-app"
 version = "0.1.0"
 
 [[package]]
